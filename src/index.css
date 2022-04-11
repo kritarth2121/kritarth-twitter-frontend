@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,900&display=swap");
+
+body {
+  font-family: Red hat Display, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --toastify-color-light: #60a5fa;
+  --toastify-toast-width: 180px;
+  --toastify-toast-max-height: 40px;
+  --toastify-text-color-light: #fff;
+}
+
+.back {
+  background: url(assets/background.svg) no-repeat top;
+  background-size: cover;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: gainsboro;
+}
+
+i {
+  cursor: pointer;
+}
+.nav-element {
+  @apply p-3 text-lg  rounded-full hover:bg-gray-200;
+}
+
+.nav-element-active {
+  @apply p-3 text-lg  rounded-full bg-gray-200;
+}
+
+.button {
+  @apply bg-blue-500 text-white font-semibold px-5 py-2 rounded-full shadow-md;
+}
+.button-black {
+  @apply rounded-full py-2 px-4 text-white font-semibold text-sm ml-auto bg-black;
+}
+.button-black--clicked {
+  @apply rounded-full py-2 px-4 text-black font-semibold text-sm ml-auto bg-white border;
+}
+.small-button {
+  @apply ml-3 border-2 font-medium rounded-full px-2 py-1 hover:text-black hover:border-black;
+}
+
+.message-base-style {
+  @apply mb-3 whitespace-nowrap py-2 px-3 relative;
+}
+
+.message-sender-style {
+  @apply ml-auto bg-blue-400 text-white rounded-br-none rounded-3xl;
+}
+.message-receiver-style {
+  @apply mr-auto rounded-bl-none rounded-3xl bg-slate;
+}
+
+.user-tile-base-style {
+  @apply flex mb-1 items-start cursor-pointer hover:bg-gray-50;
+}
