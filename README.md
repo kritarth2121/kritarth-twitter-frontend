@@ -1,4 +1,4 @@
-# Kritarth Twitter Web App
+# Kritarth Twitter Web App https://kritarth-twitter.netlify.com/
 
 Social media web app built using MERN stack.
 
