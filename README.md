@@ -11,7 +11,7 @@ Social media web app built using MERN stack.
 -   React Router v6 for routing
 -   Socket.io as websocket for instant messaging
 -   Cloudinary for image upload
--   Express & Node for API [Repo Link]
+-   Express & Node for API [Repo Link]https://github.com/kritarth2121/kritarth-tweet-backend
 -   MongoDB using mongoose for data storage
 -   User authentication using JWT
 
