@@ -1,6 +1,6 @@
-export const BASE_URL = "https://kritarth-tweet.herokuapp.com";
+export const BASE_URL = "http://twittter-be-env.eba-vmy6uite.ap-south-1.elasticbeanstalk.com";
 import crypto from "crypto-js";
-import {toast} from "react-toastify";
+import { toast } from "react-toastify";
 
 export function validateEmail(email) {
     return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email);
