@@ -1,4 +1,4 @@
-export const BASE_URL = "http://twittter-be-env.eba-vmy6uite.ap-south-1.elasticbeanstalk.com";
+export const BASE_URL = "https://15.207.74.46.nip.io/";
 import crypto from "crypto-js";
 import { toast } from "react-toastify";
 
