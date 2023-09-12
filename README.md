@@ -2,7 +2,7 @@
 
 Social media web app built using MERN stack. https://kritarth-twitter.netlify.com/
 
-<img src="https://user-images.githubusercontent.com/40515852/147809882-ac6096fe-a37e-4a21-a960-76c905a1f361.jpg" width=600px />
+<img src="https://github.com/kritarth2121/kritarth-twitter-frontend/blob/main/public/Screenshot%202023-09-13%20003608.png?raw=true" width=600px />
 
 ## Technology Stack
 
