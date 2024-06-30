@@ -1,4 +1,4 @@
-export const BASE_URL = "https://15.207.74.46.nip.io";
+export const BASE_URL = "https://kritarth-tweet-backend.onrender.com";
 import crypto from "crypto-js";
 import { toast } from "react-toastify";
 
